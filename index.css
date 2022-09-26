@@ -58,6 +58,11 @@ li a{
     display: flex;
     gap: 169px;
 }
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1{
     font-size: 56px;
     line-height: calc(69 / 56);
