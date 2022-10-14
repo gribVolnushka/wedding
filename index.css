@@ -38,13 +38,11 @@ li a{
     color: #000000;
 }
 .button-head{
-    width: 150px;
-    height: 43.5px;
+    padding: 14px 23px 8px 26px;
     color: #F7941E;
     border: 1px solid #F7941E;
     border-radius: 5px;
-    background-color: #FFFFFF;
-    
+    background-color: #FFFFFF;   
 }
 /* end header */
 
@@ -57,6 +55,7 @@ li a{
 .find > div{
     display: flex;
     gap: 169px;
+    align-items: flex-start
 }
 .container{
     width: 1170px;
@@ -80,12 +79,255 @@ h1{
     background-color: #F7941E;
     border-radius: 5px;
     border-color: #F7941E;
-    width: 200px;
-    height: 60px;
-    margin-bottom: 208px;
+    padding: 20px 24px 18px 25px;   
 }
 .newlyweds{
     width: 570px;
-    margin-bottom: 75px;
 }
 /* end section */
+
+/* start section Thanks */
+
+.thanks{
+    padding-bottom: 129px;
+    background-color:  #F1F1F2;
+}
+.thanks > div{
+    display: flex;
+    gap: 130px;
+}
+.card-thanks{
+    width: 570px;
+}
+.thanks-text{
+    align-self: center;
+}
+.thanks-text h2{
+    font-size: 32px;
+    line-height: calc(45 / 32);
+    margin-bottom: 23px;
+}
+.thanks-text p{
+    font-size: 20px;
+    line-height: calc(28 / 20);
+    margin-bottom: 35px;
+}
+.button-thanks{
+    text-align: center;
+    color: #F7941E;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    padding: 21px 46px;
+}
+/* end section Thanks */
+
+/* start section Gifts */
+.gifts{
+    padding-top: 96px;
+    padding-bottom: 137px;
+    color: #000000;
+}
+.gifts h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 23px;
+}
+.gifts p{
+    text-align: center;
+    margin-bottom: 64px;
+    font-size: 18px;
+    line-height: 135.94%;
+}
+.list-gifts{
+    display: flex;
+    gap: 30px;
+}
+.list-gifts li{
+    width: 270px;
+    background-color: #FAFAFA;
+}
+.cards-text{
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+.list-gifts img{
+    width: 100%;
+    margin-bottom: 24px;
+}   
+.cards-text h3{
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    margin-bottom: 74px;
+}
+.cards-text a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: calc(19 / 14);
+    color: #000000;
+}
+/* end section Gifts */
+
+/* start section Ready */
+.container-2{
+    width: 959px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ready{
+    padding-top: 81px;
+    padding-bottom: 69px;
+    background-color: #F7941E;
+}
+.ready > div{
+    display: flex;
+    gap: 229px;
+}
+.ready h2{
+    font-size: 32px;
+    line-height: calc(45 / 32);
+    font-weight: 600;
+}
+.ready p{
+    font-size: 32px;
+    line-height: calc(45 / 32);
+}
+.buttons-ready{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.button-background{
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    color: #FFFFFF;
+    padding: 18px 25px 10px 24px;
+    background-color:#231F20;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.button-transparent{
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    color: #000000;
+    background-color: #F7941E;
+    padding: 17px 16px 8px 17px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+/* end section Ready */
+
+/* start section Best-blogs */
+.best-blogs{
+    padding-top: 88px;
+    padding-bottom: 80px;
+}
+.best-blogs h2{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.best-blogs blockquote{
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    color: #000000;
+    text-align: center;
+    margin-bottom: 73px;
+}
+.block-blogs{
+    color: #FFFFFF;
+    background-color: #231F20;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.block-blogs img{
+    width: 400px;
+}
+.author{
+    font-size: 14px;
+    line-height: calc(20 / 14);
+    margin-bottom: 30px;
+
+}
+.text-block h3{
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 70px;
+}
+.text-block a{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.list-block{
+    display: flex;
+    gap: 30px;
+}
+.list-block li{
+    width: 570px;
+    padding: 48px;
+}
+.list-block h3{
+    font-size: 24px;
+    line-height: calc(34 / 24);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.list-block p{
+    font-size: 18px;
+    line-height: calc(25 / 18);
+    margin-bottom: 36px;
+}
+.list-block a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: calc(20 / 14);
+}
+/* end section Best-blogs */
+
+/* start Footer */
+footer{
+    padding-top: 106px;
+    padding-bottom: 35px;
+}
+footer > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-row{
+    display: flex;
+    gap: 141px;
+    margin-bottom: 43px;
+}
+.list-footer{
+    display: flex;
+    gap: 81px;
+}
+.list-footer > li a{
+    font-size: 14px;
+    line-height: calc(20 / 14);
+    font-weight: 600;
+}
+.logo-footer{
+    color: #F7941E;
+    font-size: 18px;
+    line-height: calc(39 / 18);
+    text-decoration: none;
+}
+.list-links{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 73px;
+}
+.underline{
+    margin-bottom: 56px;
+}
+/* end Footer */
