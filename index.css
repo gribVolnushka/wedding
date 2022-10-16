@@ -24,9 +24,9 @@ header .content-header{
     align-items: center;
 }
 .logo{
+    font-family: 'Homemade Apple', cursive;
     color:  #231F20;
     text-decoration: none;
-    font-style: italic;
 }
 .list{
     display: flex;
@@ -38,7 +38,7 @@ li a{
     color: #000000;
 }
 .button-head{
-    padding: 14px 23px 8px 26px;
+    padding: 12px 24px;
     color: #F7941E;
     border: 1px solid #F7941E;
     border-radius: 5px;
@@ -203,7 +203,7 @@ h1{
     font-size: 18px;
     line-height: calc(22 / 18);
     color: #FFFFFF;
-    padding: 18px 25px 10px 24px;
+    padding: 14px 24px;
     background-color:#231F20;
     border: 1px solid #000000;
     border-radius: 5px;
@@ -213,7 +213,7 @@ h1{
     line-height: calc(24 / 18);
     color: #000000;
     background-color: #F7941E;
-    padding: 17px 16px 8px 17px;
+    padding: 14px 24px;
     border: 1px solid #000000;
     border-radius: 5px;
 }
@@ -317,6 +317,7 @@ footer > div{
     font-weight: 600;
 }
 .logo-footer{
+    font-family: 'Homemade Apple', cursive;
     color: #F7941E;
     font-size: 18px;
     line-height: calc(39 / 18);
