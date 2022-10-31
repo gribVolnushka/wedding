@@ -1,0 +1,10 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Homemade+Apple&display=swap');
+@import "CSS/general.css";
+@import "CSS/Sections/header.css";
+@import "CSS/Sections/find.css";
+@import "CSS/Sections/thanks.css";
+@import "CSS/Sections/gifts.css";
+@import "CSS/Sections/ready.css";
+@import "CSS/Sections/best-blogs.css";
+@import "CSS/Sections/footer.css";
