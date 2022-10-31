@@ -1,0 +1,42 @@
+.ready{
+    padding-top: 81px;
+    padding-bottom: 69px;
+    background-color: #F7941E;
+}
+.ready__container{
+    display: flex;
+    gap: 229px;
+    justify-content: space-between;
+}
+.ready__title{
+    font-size: 32px;
+    line-height: calc(45 / 32);
+    font-weight: 600;
+}
+.ready__text{
+    font-size: 32px;
+    line-height: calc(45 / 32);
+}
+.ready__buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.ready__button--background{
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    color: #FFFFFF;
+    padding: 14px 24px;
+    background-color:#231F20;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.ready__button--transparent{
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    color: #000000;
+    background-color: #F7941E;
+    padding: 14px 24px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}

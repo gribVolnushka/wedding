@@ -1,0 +1,39 @@
+.thanks {
+    padding-bottom: 129px;
+    background-color: #F1F1F2;
+}
+
+.thanks__container {
+    display: flex;
+    gap: 130px;
+}
+
+.thanks__cards {
+    width: 570px;
+}
+
+.thanks__content {
+    align-self: center;
+}
+
+.thanks__title {
+    font-size: 32px;
+    line-height: calc(45 / 32);
+    margin-bottom: 23px;
+}
+
+.thanks__text {
+    font-size: 20px;
+    line-height: calc(28 / 20);
+    margin-bottom: 35px;
+}
+
+.thanks__button {
+    text-align: center;
+    color: #F7941E;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    padding: 21px 46px;
+}
